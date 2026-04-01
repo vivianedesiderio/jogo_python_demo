@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from code.Const import WIN_WIDTH
-from code.Enemy import Enemy
-from code.EnemyShot import EnemyShot
-from code.Entity import Entity
-from code.PlayerShot import PlayerShot
+from game_core.Const import WIN_WIDTH
+from game_core.Enemy import Enemy
+from game_core.EnemyShot import EnemyShot
+from game_core.Entity import Entity
+from game_core.PlayerShot import PlayerShot
 
 
 class EntityMediator:

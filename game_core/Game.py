@@ -2,9 +2,9 @@
 import sys
 import pygame
 
-from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
-from code.Level import Level
-from code.Menu import Menu
+from game_core.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
+from game_core.Level import Level
+from game_core.Menu import Menu
 
 
 class Game:
