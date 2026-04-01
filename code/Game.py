@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import sys
 import pygame
 
 from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
@@ -7,6 +8,7 @@ from code.Menu import Menu
 
 
 class Game:
+
     def __init__(self):
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
@@ -24,4 +26,5 @@ class Game:
                 pygame.quit()  # Close window
                 quit()  # end pygame
             else:
-                pass
+                pygame.quit()
+                sys.exit()
