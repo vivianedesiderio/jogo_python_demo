@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from abc import ABC, abstractmethod
 
-from code.Const import ENTITY_HEALTH
+from game_core.Const import ENTITY_HEALTH
 
 
 class Entity(ABC):

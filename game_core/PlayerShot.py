@@ -1,5 +1,5 @@
-from code.Const import ENTITY_SPEED
-from code.Entity import Entity
+from game_core.Const import ENTITY_SPEED
+from game_core.Entity import Entity
 
 
 class PlayerShot(Entity):
